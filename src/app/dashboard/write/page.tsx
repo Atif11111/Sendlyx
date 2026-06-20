@@ -1,10 +1,9 @@
-import Home from '@/modules/home/home'
-import React from 'react'
+import Write from '@/modules/dashboard/elements/write/write'
 
 const Page = () => {
   return (
     <div>
-      <Home />
+        <Write />
     </div>
   )
 }

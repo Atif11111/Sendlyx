@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" width="300" height="72">
+  <rect width="300" height="72" fill="#0F172A" rx="8"/>
+
+  <!-- Icon region -->
+  <g transform="translate(14, 6)">
+    <!-- Main S spine -->
+    <path d="M 34 8 C 34 8 14 8 14 20 C 14 32 34 32 34 44 C 34 56 14 56 14 56"
+          fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <!-- Upper streams -->
+    <path d="M 33 9 L 46 5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 35 17 L 48 15" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 35 23 L 48 23" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+    <!-- Lower streams -->
+    <path d="M 14 44 L 0 48" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M 14 51 L -1 53" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <path d="M 15 57 L 0 59" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="86" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif"
+        font-size="27" font-weight="600" letter-spacing="-0.5" fill="#FFFFFF">Sendlyx</text>
+</svg>

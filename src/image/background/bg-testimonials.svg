@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 700" width="1440" height="700">
+  <defs>
+    <linearGradient id="testBase" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#0C1832"/>
+      <stop offset="50%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="testGlow1" cx="25%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#1E3A5F" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="testGlow2" cx="78%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#2D1B69" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#2D1B69" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="700" fill="url(#testBase)"/>
+  <rect width="1440" height="700" fill="url(#testGlow1)"/>
+  <rect width="1440" height="700" fill="url(#testGlow2)"/>
+
+  <!-- Circuit trace lines — horizontal with 90° turns, nodes -->
+  <!-- Left cluster -->
+  <polyline points="0,140 180,140 180,200 320,200 320,160 500,160" fill="none" stroke="#1E40AF" stroke-width="1" stroke-opacity="0.45"/>
+  <polyline points="0,280 120,280 120,340 260,340 260,300 440,300" fill="none" stroke="#1D4ED8" stroke-width="1" stroke-opacity="0.35"/>
+  <polyline points="0,420 200,420 200,380 380,380 380,440 540,440" fill="none" stroke="#1E40AF" stroke-width="0.8" stroke-opacity="0.3"/>
+  <polyline points="0,540 160,540 160,490 300,490 300,560 480,560" fill="none" stroke="#1D4ED8" stroke-width="0.8" stroke-opacity="0.28"/>
+
+  <!-- Right cluster -->
+  <polyline points="1440,140 1260,140 1260,200 1100,200 1100,160 940,160" fill="none" stroke="#312E81" stroke-width="1" stroke-opacity="0.45"/>
+  <polyline points="1440,280 1320,280 1320,340 1180,340 1180,300 1000,300" fill="none" stroke="#4338CA" stroke-width="1" stroke-opacity="0.35"/>
+  <polyline points="1440,420 1240,420 1240,380 1060,380 1060,440 900,440" fill="none" stroke="#312E81" stroke-width="0.8" stroke-opacity="0.3"/>
+  <polyline points="1440,540 1280,540 1280,490 1140,490 1140,560 960,560" fill="none" stroke="#4338CA" stroke-width="0.8" stroke-opacity="0.28"/>
+
+  <!-- Circuit node dots -->
+  <circle cx="180" cy="140" r="3" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="320" cy="200" r="3" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="500" cy="160" r="2.5" fill="#60A5FA" opacity="0.7"/>
+  <circle cx="120" cy="280" r="3" fill="#6366F1" opacity="0.6"/>
+  <circle cx="260" cy="340" r="3" fill="#6366F1" opacity="0.55"/>
+  <circle cx="440" cy="300" r="2.5" fill="#818CF8" opacity="0.65"/>
+  <circle cx="200" cy="420" r="3" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="380" cy="380" r="2.5" fill="#60A5FA" opacity="0.55"/>
+  <circle cx="160" cy="540" r="3" fill="#6366F1" opacity="0.5"/>
+  <circle cx="300" cy="490" r="2.5" fill="#818CF8" opacity="0.55"/>
+
+  <circle cx="1260" cy="140" r="3" fill="#4F46E5" opacity="0.7"/>
+  <circle cx="1100" cy="200" r="3" fill="#6366F1" opacity="0.6"/>
+  <circle cx="940" cy="160" r="2.5" fill="#818CF8" opacity="0.7"/>
+  <circle cx="1320" cy="280" r="3" fill="#3B82F6" opacity="0.6"/>
+  <circle cx="1180" cy="340" r="3" fill="#6366F1" opacity="0.55"/>
+  <circle cx="1000" cy="300" r="2.5" fill="#818CF8" opacity="0.65"/>
+  <circle cx="1240" cy="420" r="3" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="1060" cy="380" r="2.5" fill="#60A5FA" opacity="0.55"/>
+  <circle cx="1280" cy="540" r="3" fill="#4F46E5" opacity="0.5"/>
+  <circle cx="1140" cy="490" r="2.5" fill="#818CF8" opacity="0.55"/>
+
+  <!-- Faint particle field -->
+  <g opacity="0.45">
+    <circle cx="680" cy="80" r="1.5" fill="#60A5FA"/>
+    <circle cx="760" cy="120" r="1" fill="#818CF8"/>
+    <circle cx="620" cy="160" r="1.5" fill="#22D3EE"/>
+    <circle cx="800" cy="200" r="1" fill="#60A5FA"/>
+    <circle cx="700" cy="240" r="1.5" fill="#818CF8"/>
+    <circle cx="640" cy="300" r="1" fill="#22D3EE"/>
+    <circle cx="780" cy="340" r="1.5" fill="#60A5FA"/>
+    <circle cx="720" cy="400" r="1" fill="#818CF8"/>
+    <circle cx="660" cy="440" r="1.5" fill="#22D3EE"/>
+    <circle cx="740" cy="500" r="1" fill="#60A5FA"/>
+    <circle cx="700" cy="560" r="1.5" fill="#818CF8"/>
+    <circle cx="600" cy="60" r="1" fill="#A5B4FC"/>
+    <circle cx="840" cy="60" r="1" fill="#A5B4FC"/>
+    <circle cx="560" cy="380" r="1" fill="#7DD3FC"/>
+    <circle cx="880" cy="380" r="1" fill="#7DD3FC"/>
+    <circle cx="580" cy="600" r="1.2" fill="#60A5FA"/>
+    <circle cx="860" cy="600" r="1.2" fill="#60A5FA"/>
+    <circle cx="720" cy="640" r="1.5" fill="#818CF8"/>
+  </g>
+
+  <!-- Horizontal accent line center -->
+  <line x1="0" y1="350" x2="580" y2="350" stroke="#1E40AF" stroke-width="0.6" stroke-opacity="0.3"/>
+  <line x1="860" y1="350" x2="1440" y2="350" stroke="#312E81" stroke-width="0.6" stroke-opacity="0.3"/>
+
+  <!-- Top + bottom fade -->
+  <linearGradient id="testTopFade" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#0C1832" stop-opacity="0.9"/>
+    <stop offset="15%" stop-color="#0C1832" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="testBotFade" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#111827" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#111827" stop-opacity="0.9"/>
+  </linearGradient>
+  <rect width="1440" height="105" fill="url(#testTopFade)"/>
+  <rect y="595" width="1440" height="105" fill="url(#testBotFade)"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" width="340" height="90">
+  <defs>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B2E"/>
+      <stop offset="100%" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="sGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark pill background -->
+  <rect width="340" height="90" rx="16" fill="url(#darkBg)"/>
+
+  <!-- Icon region -->
+  <g transform="translate(18, 13)">
+    <!-- Main S spine -->
+    <path d="M 36 8 C 36 8 16 8 16 21 C 16 34 36 34 36 47 C 36 60 16 60 16 60"
+          fill="none" stroke="url(#sGrad2)" stroke-width="5" stroke-linecap="round"/>
+    <!-- Upper streams -->
+    <path d="M 35 9 L 48 5" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 38 17 L 51 15" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 37 24 L 51 24" fill="none" stroke="#BFDBFE" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+    <!-- Lower streams -->
+    <path d="M 16 47 L 2 51" fill="none" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 16 54 L 1 56" fill="none" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 17 61 L 2 63" fill="none" stroke="#BFDBFE" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+  </g>
+
+  <!-- Wordmark on dark -->
+  <text x="96" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif"
+        font-size="30" font-weight="600" letter-spacing="-0.5" fill="#F0F6FF">Sendlyx</text>
+</svg>

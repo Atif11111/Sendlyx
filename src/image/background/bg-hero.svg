@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="heroBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060D1A"/>
+      <stop offset="50%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#0E1F3D"/>
+    </linearGradient>
+    <linearGradient id="streamA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#3B82F6" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="streamB" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="streamC" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#818CF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#1E40AF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glowR" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#heroBase)"/>
+
+  <!-- Ambient glow blobs -->
+  <ellipse cx="280" cy="320" rx="420" ry="320" fill="url(#glowL)"/>
+  <ellipse cx="1200" cy="200" rx="380" ry="280" fill="url(#glowR)"/>
+  <rect width="1440" height="900" fill="url(#centerGlow)"/>
+
+  <!-- Subtle dot grid -->
+  <g opacity="0.09">
+    <pattern id="dotGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1" fill="#60A5FA"/>
+    </pattern>
+    <rect width="1440" height="900" fill="url(#dotGrid)"/>
+  </g>
+
+  <!-- Horizontal flow streams — main -->
+  <line x1="0" y1="210" x2="1440" y2="210" stroke="url(#streamA)" stroke-width="1.5"/>
+  <line x1="0" y1="340" x2="1440" y2="340" stroke="url(#streamB)" stroke-width="1"/>
+  <line x1="0" y1="460" x2="1440" y2="460" stroke="url(#streamA)" stroke-width="1.5"/>
+  <line x1="0" y1="580" x2="1440" y2="580" stroke="url(#streamC)" stroke-width="0.8"/>
+  <line x1="0" y1="680" x2="1440" y2="680" stroke="url(#streamB)" stroke-width="1"/>
+
+  <!-- Diagonal streams upper-left to lower-right -->
+  <path d="M -100 0 Q 400 180 900 120 T 1540 300" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.25"/>
+  <path d="M -100 80 Q 350 260 800 200 T 1540 400" fill="none" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.2"/>
+  <path d="M -100 600 Q 500 480 1000 560 T 1540 700" fill="none" stroke="#22D3EE" stroke-width="0.8" stroke-opacity="0.18"/>
+
+  <!-- Moving particles on streams — dots of light -->
+  <circle cx="180" cy="210" r="2.5" fill="#60A5FA" opacity="0.9"/>
+  <circle cx="320" cy="210" r="1.5" fill="#93C5FD" opacity="0.7"/>
+  <circle cx="560" cy="210" r="2" fill="#60A5FA" opacity="0.8"/>
+  <circle cx="820" cy="210" r="1.5" fill="#BFDBFE" opacity="0.5"/>
+  <circle cx="1050" cy="210" r="2" fill="#818CF8" opacity="0.8"/>
+  <circle cx="1280" cy="210" r="1.5" fill="#60A5FA" opacity="0.6"/>
+
+  <circle cx="90" cy="340" r="2" fill="#22D3EE" opacity="0.85"/>
+  <circle cx="350" cy="340" r="1.5" fill="#67E8F9" opacity="0.6"/>
+  <circle cx="640" cy="340" r="2.5" fill="#22D3EE" opacity="0.9"/>
+  <circle cx="940" cy="340" r="1.5" fill="#67E8F9" opacity="0.5"/>
+  <circle cx="1180" cy="340" r="2" fill="#22D3EE" opacity="0.75"/>
+  <circle cx="1380" cy="340" r="1.5" fill="#A5F3FC" opacity="0.5"/>
+
+  <circle cx="240" cy="460" r="2.5" fill="#818CF8" opacity="0.85"/>
+  <circle cx="480" cy="460" r="1.5" fill="#A5B4FC" opacity="0.6"/>
+  <circle cx="720" cy="460" r="2" fill="#818CF8" opacity="0.8"/>
+  <circle cx="960" cy="460" r="1.5" fill="#C7D2FE" opacity="0.5"/>
+  <circle cx="1200" cy="460" r="2" fill="#60A5FA" opacity="0.75"/>
+  <circle cx="1400" cy="460" r="1.5" fill="#818CF8" opacity="0.5"/>
+
+  <!-- Vertical accent lines — column feel -->
+  <line x1="360" y1="0" x2="360" y2="900" stroke="#3B82F6" stroke-width="0.5" stroke-opacity="0.07"/>
+  <line x1="720" y1="0" x2="720" y2="900" stroke="#3B82F6" stroke-width="0.5" stroke-opacity="0.07"/>
+  <line x1="1080" y1="0" x2="1080" y2="900" stroke="#3B82F6" stroke-width="0.5" stroke-opacity="0.07"/>
+
+  <!-- Corner glow accents top-left -->
+  <ellipse cx="0" cy="0" rx="300" ry="200" fill="#1D4ED8" opacity="0.12"/>
+
+  <!-- Bottom fade -->
+  <linearGradient id="botFade" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#060D1A" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#060D1A" stop-opacity="0.8"/>
+  </linearGradient>
+  <rect y="600" width="1440" height="300" fill="url(#botFade)"/>
+</svg>

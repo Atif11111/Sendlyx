@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 280" width="680" height="280">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A5F"/>
+      <stop offset="100%" stop-color="#0A1628"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="gLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="280" fill="#F1F5F9" rx="16"/>
+
+  <!-- Title -->
+  <text x="40" y="36" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="600" fill="#64748B" letter-spacing="2">ICON VARIANTS</text>
+
+  <!-- Large icon 96px dark -->
+  <g transform="translate(40,56)">
+    <rect width="96" height="96" rx="22" fill="url(#g1)"/>
+    <g transform="translate(21,14)">
+      <path d="M 38 8 C 38 8 17 8 17 21 C 17 34 38 34 38 47 C 38 60 17 60 17 60"
+            fill="none" stroke="url(#g2)" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M 37 9 L 52 5" fill="none" stroke="#60A5FA" stroke-width="2.8" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 40 18 L 55 16" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 39 26 L 54 26" fill="none" stroke="#BFDBFE" stroke-width="1.4" stroke-linecap="round" opacity="0.4"/>
+      <path d="M 17 48 L 2 52" fill="none" stroke="#60A5FA" stroke-width="2.8" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 17 55 L 1 57" fill="none" stroke="#93C5FD" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 18 62 L 2 64" fill="none" stroke="#BFDBFE" stroke-width="1.4" stroke-linecap="round" opacity="0.4"/>
+    </g>
+    <text x="48" y="172" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">96 × 96</text>
+    <text x="48" y="186" font-family="-apple-system,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">App icon / OG</text>
+  </g>
+
+  <!-- Medium icon 64px dark -->
+  <g transform="translate(180,72)">
+    <rect width="64" height="64" rx="15" fill="url(#g1)"/>
+    <g transform="translate(14,9)">
+      <path d="M 26 6 C 26 6 11 6 11 15 C 11 24 26 24 26 33 C 26 42 11 42 11 42"
+            fill="none" stroke="url(#g2)" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 26 7 L 36 4" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 28 13 L 38 11" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M 11 33 L 1 36" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 11 38 L 0 40" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    </g>
+    <text x="32" y="156" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">64 × 64</text>
+    <text x="32" y="170" font-family="-apple-system,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Nav / badge</text>
+  </g>
+
+  <!-- Small icon 40px dark -->
+  <g transform="translate(296,84)">
+    <rect width="40" height="40" rx="10" fill="url(#g1)"/>
+    <g transform="translate(8,5)">
+      <path d="M 18 4 C 18 4 7 4 7 10 C 7 16 18 16 18 22 C 18 28 7 28 7 28"
+            fill="none" stroke="url(#g2)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 18 4 L 25 2" fill="none" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 7 28 L 0 30" fill="none" stroke="#60A5FA" stroke-width="1.5" stroke-linecap="round" opacity="0.9"/>
+    </g>
+    <text x="20" y="146" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">40 × 40</text>
+    <text x="20" y="160" font-family="-apple-system,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">Favicon</text>
+  </g>
+
+  <!-- Tiny 24px dark -->
+  <g transform="translate(380,94)">
+    <rect width="24" height="24" rx="6" fill="url(#g1)"/>
+    <g transform="translate(5,3)">
+      <path d="M 11 2 C 11 2 3 2 3 7 C 3 12 11 12 11 17 C 11 20 3 20 3 20"
+            fill="none" stroke="#60A5FA" stroke-width="2.2" stroke-linecap="round"/>
+    </g>
+    <text x="12" y="136" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">24 × 24</text>
+    <text x="12" y="150" font-family="-apple-system,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">16px icon</text>
+  </g>
+
+  <!-- Light bg variant 96px -->
+  <g transform="translate(460,56)">
+    <rect width="96" height="96" rx="22" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+    <g transform="translate(21,14)">
+      <path d="M 38 8 C 38 8 17 8 17 21 C 17 34 38 34 38 47 C 38 60 17 60 17 60"
+            fill="none" stroke="url(#gLight)" stroke-width="5.5" stroke-linecap="round"/>
+      <path d="M 37 9 L 52 5" fill="none" stroke="#3B82F6" stroke-width="2.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M 40 18 L 55 16" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+      <path d="M 39 26 L 54 26" fill="none" stroke="#818CF8" stroke-width="1.4" stroke-linecap="round" opacity="0.35"/>
+      <path d="M 17 48 L 2 52" fill="none" stroke="#3B82F6" stroke-width="2.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M 17 55 L 1 57" fill="none" stroke="#6366F1" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+      <path d="M 18 62 L 2 64" fill="none" stroke="#818CF8" stroke-width="1.4" stroke-linecap="round" opacity="0.35"/>
+    </g>
+    <text x="48" y="172" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Light variant</text>
+    <text x="48" y="186" font-family="-apple-system,sans-serif" font-size="10" fill="#94A3B8" text-anchor="middle">White BG use</text>
+  </g>
+
+  <!-- Bottom usage note -->
+  <rect x="40" y="218" width="600" height="38" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="0.5"/>
+  <text x="340" y="234" font-family="-apple-system,sans-serif" font-size="11" fill="#64748B" text-anchor="middle">Always maintain a clear space equal to the icon's border-radius on all sides.</text>
+  <text x="340" y="249" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8" text-anchor="middle">Never stretch, rotate, recolor, or remove the stream lines from the icon mark.</text>
+</svg>

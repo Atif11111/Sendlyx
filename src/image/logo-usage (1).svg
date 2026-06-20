@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" width="680" height="380">
+  <defs>
+    <linearGradient id="darkBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1628"/>
+      <stop offset="100%" stop-color="#1E3A5F"/>
+    </linearGradient>
+    <linearGradient id="sG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="680" height="380" fill="#FFFFFF" rx="16"/>
+  <text x="40" y="40" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="600" fill="#64748B" letter-spacing="2">LOGO USAGE GUIDE</text>
+
+  <!-- DO panels -->
+  <text x="40" y="68" font-family="-apple-system,sans-serif" font-size="11" font-weight="600" fill="#16A34A">✓ DO</text>
+
+  <!-- DO 1: Light bg -->
+  <rect x="40" y="78" width="180" height="100" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(60,108)">
+    <path d="M 26 6 C 26 6 11 6 11 15 C 11 24 26 24 26 33 C 26 42 11 42 11 42"
+          fill="none" stroke="url(#sG)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 26 7 L 36 4" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 28 13 L 38 11" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 11 33 L 1 36" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 11 38 L 0 40" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <text x="58" y="28" font-family="-apple-system,sans-serif" font-size="20" font-weight="600" fill="#0F172A">Sendlyx</text>
+  </g>
+  <text x="130" y="192" font-family="-apple-system,sans-serif" font-size="10" fill="#16A34A" text-anchor="middle">Use on white / light surfaces</text>
+
+  <!-- DO 2: Dark bg -->
+  <rect x="240" y="78" width="180" height="100" rx="12" fill="url(#darkBg2)"/>
+  <g transform="translate(260,108)">
+    <path d="M 26 6 C 26 6 11 6 11 15 C 11 24 26 24 26 33 C 26 42 11 42 11 42"
+          fill="none" stroke="url(#sG)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 26 7 L 36 4" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 28 13 L 38 11" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 11 33 L 1 36" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" opacity="0.9"/>
+    <path d="M 11 38 L 0 40" fill="none" stroke="#93C5FD" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <text x="58" y="28" font-family="-apple-system,sans-serif" font-size="20" font-weight="600" fill="#F0F6FF">Sendlyx</text>
+  </g>
+  <text x="330" y="192" font-family="-apple-system,sans-serif" font-size="10" fill="#16A34A" text-anchor="middle">Use on dark / navy backgrounds</text>
+
+  <!-- DO 3: Icon alone -->
+  <rect x="440" y="78" width="180" height="100" rx="12" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <g transform="translate(507,98)">
+    <rect width="48" height="48" rx="11" fill="#0A1628"/>
+    <g transform="translate(10,6)">
+      <path d="M 20 4 C 20 4 8 4 8 11 C 8 18 20 18 20 25 C 20 32 8 32 8 32"
+            fill="none" stroke="url(#sG)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M 20 5 L 28 2" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 8 32 L 0 35" fill="none" stroke="#60A5FA" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+    </g>
+  </g>
+  <text x="530" y="192" font-family="-apple-system,sans-serif" font-size="10" fill="#16A34A" text-anchor="middle">Icon alone for favicon / app</text>
+
+  <!-- DON'T panels -->
+  <text x="40" y="228" font-family="-apple-system,sans-serif" font-size="11" font-weight="600" fill="#DC2626">✕ DON'T</text>
+
+  <!-- DON'T 1: Stretched -->
+  <rect x="40" y="238" width="180" height="100" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <g transform="translate(54,262)" style="transform: scaleX(1.4)">
+    <text x="10" y="40" font-family="-apple-system,sans-serif" font-size="22" font-weight="600" fill="#DC2626" opacity="0.5">Sendlyx</text>
+  </g>
+  <line x1="40" y1="238" x2="220" y2="338" stroke="#FCA5A5" stroke-width="1.5"/>
+  <text x="130" y="352" font-family="-apple-system,sans-serif" font-size="10" fill="#DC2626" text-anchor="middle">Don't stretch or distort</text>
+
+  <!-- DON'T 2: Wrong color -->
+  <rect x="240" y="238" width="180" height="100" rx="12" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+  <text x="268" y="296" font-family="-apple-system,sans-serif" font-size="22" font-weight="600" fill="#DC2626">Sendlyx</text>
+  <line x1="240" y1="238" x2="420" y2="338" stroke="#FCA5A5" stroke-width="1.5"/>
+  <text x="330" y="352" font-family="-apple-system,sans-serif" font-size="10" fill="#DC2626" text-anchor="middle">Don't use off-brand colors</text>
+
+  <!-- DON'T 3: Low contrast -->
+  <rect x="440" y="238" width="180" height="100" rx="12" fill="#DBEAFE" stroke="#BFDBFE" stroke-width="1"/>
+  <text x="468" y="296" font-family="-apple-system,sans-serif" font-size="22" font-weight="600" fill="#93C5FD">Sendlyx</text>
+  <line x1="440" y1="238" x2="620" y2="338" stroke="#FCA5A5" stroke-width="1.5"/>
+  <text x="530" y="352" font-family="-apple-system,sans-serif" font-size="10" fill="#DC2626" text-anchor="middle">Don't use on similar hue bg</text>
+</svg>

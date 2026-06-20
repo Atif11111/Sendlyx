@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <defs>
+    <linearGradient id="featBase" x1="0%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EFF6FF"/>
+    </linearGradient>
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DBEAFE" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#EDE9FE" stop-opacity="0.4"/>
+    </linearGradient>
+    <radialGradient id="featGlow1" cx="20%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#BFDBFE" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#BFDBFE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="featGlow2" cx="85%" cy="70%" r="35%">
+      <stop offset="0%" stop-color="#C7D2FE" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C7D2FE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="800" fill="url(#featBase)"/>
+  <rect width="1440" height="800" fill="url(#featGlow1)"/>
+  <rect width="1440" height="800" fill="url(#featGlow2)"/>
+
+  <!-- Hexagonal grid (flat-top hexagons) -->
+  <g opacity="0.13" stroke="#3B82F6" stroke-width="0.8" fill="none">
+    <!-- Row 1 -->
+    <polygon points="120,60 160,36 200,60 200,108 160,132 120,108"/>
+    <polygon points="200,60 240,36 280,60 280,108 240,132 200,108"/>
+    <polygon points="280,60 320,36 360,60 360,108 320,132 280,108"/>
+    <polygon points="360,60 400,36 440,60 440,108 400,132 360,108"/>
+    <polygon points="440,60 480,36 520,60 520,108 480,132 440,108"/>
+    <polygon points="520,60 560,36 600,60 600,108 560,132 520,108"/>
+    <polygon points="600,60 640,36 680,60 680,108 640,132 600,108"/>
+    <polygon points="680,60 720,36 760,60 760,108 720,132 680,108"/>
+    <polygon points="760,60 800,36 840,60 840,108 800,132 760,108"/>
+    <polygon points="840,60 880,36 920,60 920,108 880,132 840,108"/>
+    <polygon points="920,60 960,36 1000,60 1000,108 960,132 920,108"/>
+    <polygon points="1000,60 1040,36 1080,60 1080,108 1040,132 1000,108"/>
+    <polygon points="1080,60 1120,36 1160,60 1160,108 1120,132 1080,108"/>
+    <polygon points="1160,60 1200,36 1240,60 1240,108 1200,132 1160,108"/>
+    <polygon points="1240,60 1280,36 1320,60 1320,108 1280,132 1240,108"/>
+    <polygon points="1320,60 1360,36 1400,60 1400,108 1360,132 1320,108"/>
+    <!-- Row 2 offset -->
+    <polygon points="80,132 120,108 160,132 160,180 120,204 80,180"/>
+    <polygon points="160,132 200,108 240,132 240,180 200,204 160,180"/>
+    <polygon points="240,132 280,108 320,132 320,180 280,204 240,180"/>
+    <polygon points="320,132 360,108 400,132 400,180 360,204 320,180"/>
+    <polygon points="400,132 440,108 480,132 480,180 440,204 400,180"/>
+    <polygon points="480,132 520,108 560,132 560,180 520,204 480,180"/>
+    <polygon points="560,132 600,108 640,132 640,180 600,204 560,180"/>
+    <polygon points="640,132 680,108 720,132 720,180 680,204 640,180"/>
+    <polygon points="720,132 760,108 800,132 800,180 760,204 720,180"/>
+    <polygon points="800,132 840,108 880,132 880,180 840,204 800,180"/>
+    <polygon points="880,132 920,108 960,132 960,180 920,204 880,180"/>
+    <polygon points="960,132 1000,108 1040,132 1040,180 1000,204 960,180"/>
+    <polygon points="1040,132 1080,108 1120,132 1120,180 1080,204 1040,180"/>
+    <polygon points="1120,132 1160,108 1200,132 1200,180 1160,204 1120,180"/>
+    <polygon points="1200,132 1240,108 1280,132 1280,180 1240,204 1200,180"/>
+    <polygon points="1280,132 1320,108 1360,132 1360,180 1320,204 1280,180"/>
+    <polygon points="1360,132 1400,108 1440,132 1440,180 1400,204 1360,180"/>
+    <!-- Row 3 -->
+    <polygon points="120,204 160,180 200,204 200,252 160,276 120,252"/>
+    <polygon points="280,204 320,180 360,204 360,252 320,276 280,252"/>
+    <polygon points="440,204 480,180 520,204 520,252 480,276 440,252"/>
+    <polygon points="600,204 640,180 680,204 680,252 640,276 600,252"/>
+    <polygon points="760,204 800,180 840,204 840,252 800,276 760,252"/>
+    <polygon points="920,204 960,180 1000,204 1000,252 960,276 920,252"/>
+    <polygon points="1080,204 1120,180 1160,204 1160,252 1120,276 1080,252"/>
+    <polygon points="1240,204 1280,180 1320,204 1320,252 1280,276 1240,252"/>
+    <polygon points="1400,204 1440,180 1440,252 1400,276"/>
+  </g>
+
+  <!-- Highlighted hexagons with fill -->
+  <polygon points="480,132 520,108 560,132 560,180 520,204 480,180" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" opacity="0.5"/>
+  <polygon points="880,60 920,36 960,60 960,108 920,132 880,108" fill="#EDE9FE" stroke="#A5B4FC" stroke-width="1" opacity="0.5"/>
+  <polygon points="1200,132 1240,108 1280,132 1280,180 1240,204 1200,180" fill="#DBEAFE" stroke="#93C5FD" stroke-width="1" opacity="0.4"/>
+  <polygon points="280,204 320,180 360,204 360,252 320,276 280,252" fill="#E0F2FE" stroke="#7DD3FC" stroke-width="1" opacity="0.45"/>
+
+  <!-- Diagonal cross lines — subtle -->
+  <line x1="0" y1="400" x2="1440" y2="400" stroke="#BFDBFE" stroke-width="1" stroke-opacity="0.3"/>
+  <line x1="0" y1="500" x2="1440" y2="500" stroke="#BFDBFE" stroke-width="0.6" stroke-opacity="0.2"/>
+  <line x1="0" y1="600" x2="1440" y2="600" stroke="#C7D2FE" stroke-width="0.6" stroke-opacity="0.2"/>
+  <line x1="0" y1="700" x2="1440" y2="700" stroke="#BFDBFE" stroke-width="0.5" stroke-opacity="0.15"/>
+
+  <!-- Right side faint diagonal stream lines -->
+  <path d="M 800 0 Q 1100 200 1000 500 T 1200 800" fill="none" stroke="#3B82F6" stroke-width="1" stroke-opacity="0.07"/>
+  <path d="M 1000 0 Q 1300 300 1100 600 T 1300 800" fill="none" stroke="#6366F1" stroke-width="0.8" stroke-opacity="0.06"/>
+
+  <!-- Top fade -->
+  <linearGradient id="topFade" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#F8FAFC" stop-opacity="0.9"/>
+    <stop offset="20%" stop-color="#F8FAFC" stop-opacity="0"/>
+  </linearGradient>
+  <rect width="1440" height="160" fill="url(#topFade)"/>
+
+  <!-- Bottom fade -->
+  <linearGradient id="featBotFade" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#EFF6FF" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#EFF6FF" stop-opacity="0.6"/>
+  </linearGradient>
+  <rect y="600" width="1440" height="200" fill="url(#featBotFade)"/>
+</svg>

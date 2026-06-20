@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" width="680" height="420">
+  <rect width="680" height="420" fill="#F8FAFC" rx="16"/>
+
+  <!-- Label -->
+  <text x="40" y="44" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="13" font-weight="600" fill="#64748B" letter-spacing="2">SENDLYX TYPOGRAPHY</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="56" x2="640" y2="56" stroke="#E2E8F0" stroke-width="1"/>
+
+  <!-- Display -->
+  <text x="40" y="96" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#0A1628">Send smarter.</text>
+  <text x="40" y="108" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8">Display / 48px / 700 weight / -1.5 tracking</text>
+
+  <line x1="40" y1="124" x2="640" y2="124" stroke="#E2E8F0" stroke-width="0.5"/>
+
+  <!-- H1 -->
+  <text x="40" y="158" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="32" font-weight="600" letter-spacing="-0.5" fill="#0F172A">AI newsletters that convert</text>
+  <text x="40" y="172" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8">H1 / 32px / 600 weight / -0.5 tracking</text>
+
+  <line x1="40" y1="188" x2="640" y2="188" stroke="#E2E8F0" stroke-width="0.5"/>
+
+  <!-- H2 -->
+  <text x="40" y="218" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="22" font-weight="600" letter-spacing="-0.3" fill="#1E293B">Grow your list with intelligence</text>
+  <text x="40" y="232" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8">H2 / 22px / 600 weight</text>
+
+  <line x1="40" y1="248" x2="640" y2="248" stroke="#E2E8F0" stroke-width="0.5"/>
+
+  <!-- Body -->
+  <text x="40" y="278" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="16" fill="#334155">Sendlyx uses AI to write, personalize, and deliver email newsletters</text>
+  <text x="40" y="298" font-family="-apple-system,BlinkMacSystemFont,'Inter',sans-serif" font-size="16" fill="#334155">that feel human — and perform like a growth engine.</text>
+  <text x="40" y="314" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8">Body / 16px / 400 weight / 1.7 line height</text>
+
+  <line x1="40" y1="330" x2="640" y2="330" stroke="#E2E8F0" stroke-width="0.5"/>
+
+  <!-- Caption / Label -->
+  <text x="40" y="358" font-family="-apple-system,sans-serif" font-size="13" font-weight="500" fill="#3B82F6" letter-spacing="0.3">FEATURE LABEL  ·  CAPTION TEXT  ·  UI METADATA</text>
+  <text x="40" y="374" font-family="-apple-system,sans-serif" font-size="11" fill="#94A3B8">Label / 13px / 500 weight / 0.3 tracking — use for badges, tags, eyebrows</text>
+
+  <!-- Typeface note -->
+  <rect x="40" y="394" width="600" height="18" rx="4" fill="#EFF6FF"/>
+  <text x="340" y="406" font-family="-apple-system,sans-serif" font-size="11" fill="#3B82F6" text-anchor="middle">Primary typeface: Inter — fallback: -apple-system, Segoe UI, sans-serif</text>
+</svg>

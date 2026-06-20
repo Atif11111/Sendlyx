@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 800" width="1440" height="800">
+  <defs>
+    <linearGradient id="pricingBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+    <radialGradient id="pricingGlow1" cx="0%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#DBEAFE" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#DBEAFE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pricingGlow2" cx="100%" cy="100%" r="55%">
+      <stop offset="0%" stop-color="#EDE9FE" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#EDE9FE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pricingGlow3" cx="100%" cy="0%" r="40%">
+      <stop offset="0%" stop-color="#E0F2FE" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#E0F2FE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="800" fill="url(#pricingBase)"/>
+  <rect width="1440" height="800" fill="url(#pricingGlow1)"/>
+  <rect width="1440" height="800" fill="url(#pricingGlow2)"/>
+  <rect width="1440" height="800" fill="url(#pricingGlow3)"/>
+
+  <!-- Diagonal line texture -->
+  <g stroke="#BFDBFE" stroke-width="0.7" stroke-opacity="0.35">
+    <line x1="-100" y1="200" x2="300" y2="-100"/>
+    <line x1="-100" y1="400" x2="500" y2="-100"/>
+    <line x1="-100" y1="600" x2="700" y2="-100"/>
+    <line x1="-100" y1="800" x2="900" y2="-100"/>
+    <line x1="0" y1="900" x2="1100" y2="-100"/>
+    <line x1="200" y1="900" x2="1300" y2="-100"/>
+    <line x1="400" y1="900" x2="1500" y2="-100"/>
+    <line x1="600" y1="900" x2="1540" y2="0"/>
+    <line x1="800" y1="900" x2="1540" y2="200"/>
+    <line x1="1000" y1="900" x2="1540" y2="400"/>
+    <line x1="1200" y1="900" x2="1540" y2="600"/>
+    <line x1="1400" y1="900" x2="1540" y2="800"/>
+  </g>
+
+  <!-- Lighter secondary diagonals, offset -->
+  <g stroke="#C7D2FE" stroke-width="0.4" stroke-opacity="0.2">
+    <line x1="-100" y1="300" x2="400" y2="-100"/>
+    <line x1="-100" y1="500" x2="600" y2="-100"/>
+    <line x1="-100" y1="700" x2="800" y2="-100"/>
+    <line x1="100" y1="900" x2="1200" y2="-100"/>
+    <line x1="300" y1="900" x2="1400" y2="-100"/>
+    <line x1="500" y1="900" x2="1540" y2="100"/>
+    <line x1="700" y1="900" x2="1540" y2="300"/>
+    <line x1="900" y1="900" x2="1540" y2="500"/>
+    <line x1="1100" y1="900" x2="1540" y2="700"/>
+    <line x1="1300" y1="900" x2="1540" y2="900"/>
+  </g>
+
+  <!-- Accent circles — decorative rings at corners -->
+  <circle cx="0" cy="0" r="200" fill="none" stroke="#93C5FD" stroke-width="0.8" stroke-opacity="0.3"/>
+  <circle cx="0" cy="0" r="340" fill="none" stroke="#93C5FD" stroke-width="0.5" stroke-opacity="0.18"/>
+  <circle cx="1440" cy="800" r="220" fill="none" stroke="#A5B4FC" stroke-width="0.8" stroke-opacity="0.28"/>
+  <circle cx="1440" cy="800" r="380" fill="none" stroke="#A5B4FC" stroke-width="0.5" stroke-opacity="0.16"/>
+  <circle cx="1440" cy="0" r="180" fill="none" stroke="#7DD3FC" stroke-width="0.6" stroke-opacity="0.22"/>
+
+  <!-- Horizontal rule lines (subtle) -->
+  <line x1="0" y1="800" x2="1440" y2="800" stroke="#BFDBFE" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="0" y1="0" x2="1440" y2="0" stroke="#DBEAFE" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- White vignette center to keep cards readable -->
+  <radialGradient id="centerWhite" cx="50%" cy="50%" r="45%">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1440" height="800" fill="url(#centerWhite)"/>
+</svg>
