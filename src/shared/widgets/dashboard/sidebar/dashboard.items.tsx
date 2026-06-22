@@ -33,7 +33,7 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
             key={index}
             href={
               bottomContent && item.url === "/"
-                ? `/subscribe?username=${user?.username}`
+                ? `/subscribe?username=${user?.username || user?.primaryEmailAddress?.emailAddress?.split('@')[0] || "My"}`
                 : item.url
             }
             className={`group flex items-center gap-4 px-5 py-3.5 rounded-xl transition-all duration-300 ${

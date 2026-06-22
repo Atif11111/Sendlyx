@@ -7,7 +7,7 @@ export const validateEmail = async ({
 }: {
   email: string;
 }): Promise<ZeroBounceResponse> => {
-  const uri = `${baseUrl}/validate?api_key=${process.env.ZEROBOUNCE_API_KEY}&email=${email}`;
+  const uri = `${baseUrl}/validate?api_key=${process.env.ZERO_BOUNCE_API_KEY}&email=${email}`;
 
   try {
     const response = await fetch(uri, { method: "GET" });
