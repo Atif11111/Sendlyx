@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@source "../app/**/*.tsx";
+@source "../modules/**/*.tsx";
+@source "../shared/**/*.tsx";
+
 :root {
   --brand-deep: #0A1628;
   --brand-navy: #1E3A5F;

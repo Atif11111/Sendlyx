@@ -2,7 +2,6 @@ import { sideBarBottomItems, sideBarItems } from "@/app/configs/constants";
 import useRouteChange from "@/shared/hooks/useRouteChange";
 import { ICONS } from "@/shared/utils/icons";
 import { useClerk } from "@clerk/nextjs";
-import Image from "next/image";
 import Link from "next/link";
 import { redirect, usePathname } from "next/navigation";
 import { useEffect } from "react";
@@ -21,72 +20,69 @@ const DashboardItems = ({ bottomContent }: { bottomContent?: boolean }) => {
     setActiveRoute(pathName);
   }, [pathName, setActiveRoute]);
 
-  const itemClass = "flex items-center gap-2 p-3";
-  const activeClass = "text-indigo-600";
-
   const items = bottomContent ? sideBarBottomItems : sideBarItems;
 
   return (
-    <>
-      {items.map((item, index) => (
-        <Link
-          key={index}
-          href={
-            bottomContent && item.url === "/"
-              ? `/subscribe?username=${user?.username}`
-              : item.url
-          }
-          className={itemClass}
-        >
-          <span
-            className={`text-2xl ${
-              item.url === activeRoute ? activeClass : ""
-            }`}
-          >
-            {item.icon}
-          </span>
+    <div className="space-y-2">
+      {items.map((item, index) => {
+        const isActive = item.url === activeRoute || 
+          (activeRoute?.startsWith(item.url) && item.url !== "/");
 
-          <span
-            className={`text-lg ${
-              item.url === activeRoute ? activeClass : ""
+        return (
+          <Link
+            key={index}
+            href={
+              bottomContent && item.url === "/"
+                ? `/subscribe?username=${user?.username}`
+                : item.url
+            }
+            className={`group flex items-center gap-4 px-5 py-3.5 rounded-xl transition-all duration-300 ${
+              isActive
+                ? "bg-gradient-to-r from-[#22D3EE]/10 to-[#3B82F6]/10 text-white border border-[#22D3EE]/20 shadow-lg shadow-[#22D3EE]/5"
+                : "text-gray-400 hover:text-white hover:bg-white/[0.07] hover:shadow-lg hover:shadow-white/5"
             }`}
           >
-            {item.title}
-          </span>
-        </Link>
-      ))}
+            <span
+              className={`text-2xl transition-all duration-300 ${
+                isActive
+                  ? "bg-gradient-to-br from-[#22D3EE] to-[#3B82F6] bg-clip-text text-transparent"
+                  : "group-hover:scale-125 group-hover:text-white"
+              }`}
+            >
+              {item.icon}
+            </span>
+
+            <span
+              className={`text-base font-semibold tracking-wide ${
+                isActive
+                  ? "bg-gradient-to-br from-[#22D3EE] to-[#3B82F6] bg-clip-text text-transparent"
+                  : "group-hover:translate-x-0.5 transition-transform duration-200"
+              }`}
+            >
+              {item.title}
+            </span>
+
+            {isActive && (
+              <div className="ml-auto h-2.5 w-2.5 rounded-full bg-gradient-to-br from-[#22D3EE] to-[#3B82F6] shadow-lg shadow-[#22D3EE]/30" />
+            )}
+          </Link>
+        );
+      })}
 
       {bottomContent && (
-        <>
-          {/* Sign Out */}
-          <button
-            onClick={LogoutHandler}
-            className="flex items-center gap-2 p-3 border-b w-full text-left"
-          >
-            <span className="text-2xl">{ICONS.logOut}</span>
-            <span className="text-lg">Sign Out</span>
-          </button>
-
-          {/* Footer */}
-          <div className="mt-8 flex justify-center">
-            <Link href="/" className="flex items-center">
-              <Image
-                src="/logo-primary (1).svg"
-                alt="Logo"
-                width={160}
-                height={50}
-                className="h-12 w-auto object-contain"
-                priority
-              />
-            </Link>
-          </div>
-
-          <p className="mt-4 mb-8 text-center text-sm text-gray-500">
-            © 2024 Becodemy, Inc. All rights reserved.
-          </p>
-        </>
+        <button
+          onClick={LogoutHandler}
+          className="group flex items-center gap-4 px-5 py-3.5 rounded-xl text-gray-400 hover:text-red-400 hover:bg-red-500/10 transition-all duration-300 w-full text-left hover:shadow-lg hover:shadow-red-500/5"
+        >
+          <span className="text-2xl group-hover:scale-125 group-hover:text-red-400 transition-all duration-300">
+            {ICONS.logOut}
+          </span>
+          <span className="text-base font-semibold tracking-wide group-hover:translate-x-0.5 transition-transform duration-200">
+            Sign Out
+          </span>
+        </button>
       )}
-    </>
+    </div>
   );
 };
 

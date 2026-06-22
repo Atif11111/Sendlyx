@@ -50,20 +50,21 @@ const DashboardOverViewCard = () => {
 
   return (
     <div className="grid gap-4 md:grid-cols-3">
-      {stats.map((stat) => (
+      {stats.map((stat, idx) => (
         <div
           key={stat.title}
-          className="rounded-xl border bg-white p-5 shadow-sm"
+          className="card animate-fade-in-up"
+          style={{ animationDelay: `${idx * 100 + 100}ms` }}
         >
           <div className="flex items-center justify-between">
-            <h3 className="text-sm text-gray-500">
+            <h3 className="text-sm font-medium text-gray-500">
               {stat.title}
             </h3>
 
             <div
-              className={`flex items-center gap-1 rounded-full px-2 py-1 text-xs ${
+              className={`flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium ${
                 stat.positive
-                  ? "bg-green-100 text-green-600"
+                  ? "bg-[#22D3EE]/10 text-[#22D3EE]"
                   : "bg-gray-100 text-gray-500"
               }`}
             >
@@ -72,11 +73,11 @@ const DashboardOverViewCard = () => {
             </div>
           </div>
 
-          <h2 className="mt-4 text-3xl font-semibold">
+          <h2 className="mt-4 text-3xl font-bold text-[#0A1628]">
             {stat.value}
           </h2>
 
-          <p className="mt-2 text-sm text-gray-500">
+          <p className="mt-2 text-xs text-gray-400">
             Compared to last 4 weeks
           </p>
         </div>
